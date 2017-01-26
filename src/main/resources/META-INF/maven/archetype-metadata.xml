@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="oss">
+    <fileSets>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/main/java</directory>
+        </fileSet>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/test/java</directory>
+        </fileSet>
+        <fileSet filtered="false" packaged="false">
+            <directory/>
+            <includes>
+                <include>checkstyle.xml</include>
+                <include>README.md</include>
+                <include>LICENSE.txt</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
